@@ -1,0 +1,140 @@
+BODY{
+    background-color: white;
+    background-repeat: repeat;
+    color: black;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;     
+    border: 0;
+    font-family: "Times New Roman";
+    font-size: 14px;
+/*    text-align: center;*/
+/*    white-space: nowrap;*/
+}
+
+#logoimage {
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    height: 200px;
+    z-index: 1;
+}
+
+.logotext {
+    position:absolute;
+    z-index: 2;
+    white-space: nowrap;
+}
+
+#laboratory {
+    color: white;
+    left: 260px;top: 50px;
+    font-size: 385%; font-weight: bold;
+}
+#laboratoryshadow {
+    color:  blue;
+    left: 258px;top: 48px;
+    font-size: 385%; font-weight: bold;
+}
+
+#saoras {
+    color: white;
+    left: 260px;top: 130px;
+    font-size: 159%;font-weight: bold;
+}
+
+#saorasshadow {
+    color: blue;
+    left: 258px;top: 128px;
+    font-size: 159%;font-weight: bold;
+}
+
+div.b {
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 25px;
+    margin:0pt 0pt 0pt 0pt ;
+    padding:0pt 0pt 0pt 0pt ;
+    border: 0pt;
+    text-align: center;
+    vertical-align: middle;
+    font-family: times;
+    font-size: 20px;
+    color: white;
+    position:absolute;
+    left: 0px;
+}
+
+
+
+div.maintext {
+    position:absolute;
+    left: 300px;top: 200px;
+    padding:0pt 50pt 0pt 50pt ;
+}
+
+h3.goalitem{
+    color: white;
+    background-color: blue;
+}
+h2.goals{
+    color: white;
+    text-decoration: underline;
+}
+
+h2.maintitle{
+    position:absolute;
+    left: 0px;top: 10px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    width: 950px;
+    background-image: URL(../Images/title.jpg);
+}
+
+H1.DATETIME{
+    color: blue;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+}
+
+TABLE.OBJECT {
+    width:100%;
+    text-align:center;
+    border: solid 1px gray;
+    margin-top: 35px;
+}
+
+TABLE.TWILIGHTS {
+    width:100%;
+    text-align:center;
+    border: solid 1px gray;
+    margin-top: 35px;
+}
+
+TH {
+    border: solid 1px gray;
+}
+
+TD {
+    border: solid 1px gray;
+}
+
+IMAGE {
+    max-width::30px;
+}
+
+
+TR.RED     { color: red; }
+TR.YELLOW  { color: yellow;}
+TR.GREEN   { color: green; }
+TR.BLUE    { color: blue; }
+TR.BLACK   { color: black; }
+TR.MAGENTA { color: magenta; }
+
+TD.RED     { color: red; }
+TD.YELLOW  { color: yellow;}
+TD.GREEN   { color: green; }
+TD.BLUE    { color: blue; }
+TD.BLACK   { color: black; }
+TD.MAGENTA { color: magenta; }
