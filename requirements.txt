@@ -2,3 +2,4 @@ astropy
 ipython
 matplotlib
 numpy
+lxml
